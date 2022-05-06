@@ -2,8 +2,14 @@
 
 ## 🤓 Course overview and learning outcomes 💻
 
-Following on from the varaibles and parameters second exercise. You should have a project resembling something similar to the sketch.js file found within this repository. We should be able to control the location and size of the dice we are drawing on the screen. If you were to run the sketch within this repository, you should see something similar to this;
-![image](https://user-images.githubusercontent.com/67816866/150931163-b0f7981d-cc91-4187-b5f6-5606b306a107.png)
+In this assignment we will be exploring Objects. To do this we will be simulating dice and how they roll. 
+.
+.
+.
+Sorry I couldn't resist. We're actually going to be moving on from dice (🙌). The following is a description of objects taken from the Mozilla documentation (a link for this can be found at the bottom of this document).
+'JavaScript is designed on a simple object-based paradigm. An object is a collection of properties, and a property is an association between a name (or key) and a value.'
+
+
 
 Pay close attention to the functions we are calling. All of the function signatures follow the same pattern. 
   
@@ -112,9 +118,4 @@ Think in terms of the dice, we have several different faces. How are we going to
 </details>
   
 ## 📚  Resources / References
-* [Mozilla If...Else Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
-* [Mozilla truthy and falsy Documentation](https://developer.mozilla.org/en-US/docs/Glossary/Truthy)
-* [Mozilla Boolean documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
-* [p5.js Point Function Reference](https://p5js.org/reference/#/p5/point) 
-* [p5.js Square Function Reference](https://p5js.org/reference/#/p5/square)
-* [p5.js Stroke Width Function Reference](https://p5js.org/reference/#/p5/strokeWeight)
+* [Mozilla Working with objects Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
