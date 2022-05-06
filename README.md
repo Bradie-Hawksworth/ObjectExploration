@@ -7,17 +7,19 @@ In this assignment we will be exploring Objects. To do this we will be simulatin
 .
 .
 Sorry I couldn't resist. We're actually going to be moving on from dice (🙌). The following is a description of objects taken from the Mozilla documentation (a link for this can be found at the bottom of this document).
-'JavaScript is designed on a simple object-based paradigm. An object is a collection of properties, and a property is an association between a name (or key) and a value.'
+*'JavaScript is designed on a simple object-based paradigm. An object is a collection of properties, and a property is an association between a name (or key) and a value.'*
 
-
+Objects build on from the work we were doing with variables. Similar to arrays, objects can hold many different items of information this includes variables, arrays and even functions. Variables within an object are known as the objects attributes, functions within an object are known as methods.
 
 Pay close attention to the functions we are calling. All of the function signatures follow the same pattern. 
   
   ```js 
-    function exampleDice(size, xPoint, yPoint) {
-      .
-      .
-      .
+    let exampleObject = {
+          exampleAttribute : 'value',
+          exampleAttribute2 : 2,
+          exampleMethod : function printExampleAttribute() {
+            print('An example of a function being declared within an object');
+          }
     }
    ```
 This may be different to the implementation within your project and doesn't really matter if you are using the example you have created.
