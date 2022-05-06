@@ -11,7 +11,7 @@ Sorry I couldn't resist. We're actually going to be moving on from dice (🙌). 
 
 Objects build on from the work we were doing with variables. Similar to arrays, objects can hold many different items of information this includes variables, arrays and even functions. Variables within an object are known as the objects attributes, functions within an object are known as methods.
 
-Pay close attention to the functions we are calling. All of the function signatures follow the same pattern. 
+The following syntax is an example of an object being created.
   
   ```js 
     let exampleObject = {
@@ -22,40 +22,41 @@ Pay close attention to the functions we are calling. All of the function signatu
           }
     }
    ```
-This may be different to the implementation within your project and doesn't really matter if you are using the example you have created.
 
-When we roll a dice a random outcome is provided by the result on the face of the dice. This assignment will focus adding this functionality to our dice. Before continuing on, take a few minutes to plan out how this will be done in your code. 
+Note the similarities between the syntax of an object and an array. The main difference is that within an object we have to provide a name (key) for the data within the object. 
 
-* Think about the tools you have learnt over the past couple of assignments. What do you need to know or remember in order to produce a random dice face? 
+Objects are regularly used to model 'things' from customers to cars, objects and classes (we'll move on to classes in a future assignment) are the mechanisms we use to encapsulate all information relative to the given thing.
 
+## Task - Think about a 'thing' What attributes does the 'thing' have? What can the 'thing' do?
 
-## If Statements
-[Mozilla If...Else Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else) This link will take you to the Mozilla documentation regarding if...else statements. 
+Think about either an object or a pet or a person. What attributes could you give that object in your program? 
 
-If statements are executed if the condition returns a true value. This is known as a truthy value. (Documentation on truthy and falsy values can be found here [Mozilla truthy and falsy Documentation](https://developer.mozilla.org/en-US/docs/Glossary/Truthy).
+Create the object within your program or add some notes to your project describing the intent of your object.
 
-The syntax for an if...else statement is shown below.
+## Accessing attributes and methods of an object
+
+In order to access the methods and attributes of an object, the dot notation should be used. The dot notation takes the following format.
 
 ```js
-  if (condition) {
-     statement1
-  } else {
-     statement2
-  }
+let exampleObject = {
+          exampleAttribute : 'value',
+          exampleAttribute2 : 2,
+          exampleMethod : function printExampleAttribute() {
+            print('An example of a function being declared within an object');
+          }
+    }
+    
+//This is an example of how you are able to access the attributes within an object
+exampleObject.exampleAttribute;
+
+exampleObject.exampleAttribute = 'new value';
+
+//The following is an example of an objects method being called.
+exampleObject.exampleMethod();
 ```
-The relational operators documentation can be found [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators#relational_operators). These are some of the most common operators used in conjunction with the If statements.
 
-
-
-## Task - Add an If...Else statement to the Draw() Function in your sketch.
-Before we add an If...Else statement to the Draw() function we need to think about what we want to check is resulting as true.
-
-* What do we want to check is true?
-
-Think in terms of the dice, we have several different faces. How are we going to determine what face we want to display on the screen? 
-
-
-*Think about the previous section where you wrote down what you may need to simulate rolling a dice.*
+## Task - Implement the 'thing'!
+Thinking back to the 'thing' you thought about in the previous task. Can you call it's functions to make it do something? If you haven't already, try and implement the object in code and try and call it's methods.
 
 
 
